@@ -1,5 +1,5 @@
 import math
-
+#  from math import pow, sqrt, sin, cos, tan
 
 def dan():
     return float(input('Введiть перше число: ')), float(input('Введiть друге число: '))
@@ -34,7 +34,7 @@ def stu():
 def qva():
     x = one_c()
     return 'Результат =', math.sqrt(x)
-
+#  return 'Результат =', sqrt(x)
 
 def cube():
     x = one_c()
@@ -44,17 +44,17 @@ def cube():
 def sinn():
     x = one_c()
     return 'Результат =', math.sin(x)
-
+#   return 'Результат =', sin(x)
 
 def coss():
     x = one_c()
     return 'Результат =', math.cos(x)
-
+#   return 'Результат =', cos(x)  
 
 def tang():
     x = one_c()
     return 'Результат =', math.tan(x)
-
+#   return 'Результат =', tan(x)
 
 def mn():
     x, y = dan()
