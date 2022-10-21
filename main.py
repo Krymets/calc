@@ -20,11 +20,12 @@ def minus():
 
 
 def dil():
-    x, y = dan()
-    if y == 0:
+    try:
+        x, y = dan()
+        return 'Результат =', x / y
+    except:
+        y = 0
         return 'Не можна ділити на 0'
-    return 'Результат =', x / y
-
 
 def stu():
     x, y = dan()
