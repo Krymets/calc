@@ -1,5 +1,6 @@
 from math import pow, sqrt, sin, cos, tan
 
+
 def dan():
     return float(input('Введiть перше число: ')), float(input('Введiть друге число: '))
 
